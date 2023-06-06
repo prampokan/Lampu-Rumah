@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Poppins;
+}
+.wrapper{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: lightgray;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
+}
+.logo{
+    width: 50px;
+    border-style: hidden;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    margin: 5px;
+    margin-left: 15px;
+}
+.logo:hover{
+    width: 60px;
+    transition: all .3s ease-in-out;
+}
+.navigation{
+    display: flex;
+    margin: 17px;
+    margin-left: 150px;
+}
+.navlink{
+    margin-inline: 10px;
+}
+.navlink:hover{
+    color: white;
+    font-size: large;
+    transition: all .3s ease-in-out;
+}
+.linkCuy{
+    color: lightskyblue;
+    margin: 17px;
+    margin-right: 15px;
+}
+.linkCuy:hover{
+    color: blueviolet;
+    transition: all .3s ease-in-out;
+}
+.keluarga{
+    height: 100vh;
+    background-color: darkslategray;
+    background-size: cover;
+    background-position: center;
+}
+.lampuu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 170px 0;
+}
+.makan{
+    display: flex;
+    height: 100vh;
+    background-color: darkmagenta;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+}
+.tidur{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+    background-color: darkslateblue;
+}
+.tamu{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+    background-color: darkorange;
+}
+.textKeluarga{
+    font-family: Poppins;
+    color: yellow;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.textKeluarga:hover{
+    font-size: 3.2em;
+    transition: all .3s ease-in-out;
+}
+.textMakan{
+    font-family: Poppins;
+    color: yellow;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.textMakan:hover{
+    font-size: 3.2em;
+    transition: all .3s ease-in-out;
+}
+.textTidur{
+    font-family: Poppins;
+    color: yellow;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.textTidur:hover{
+    font-size: 3.2em;
+    transition: all .3s ease-in-out;
+}
+.textTamu{
+    font-family: Poppins;
+    color: lemonchiffon;
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.textTamu:hover{
+    font-size: 3.2em;
+    transition: all .3s ease-in-out;
+}
